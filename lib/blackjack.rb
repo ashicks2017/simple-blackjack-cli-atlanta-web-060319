@@ -46,6 +46,7 @@ def hit?(card_total)
   
   if user_input = 'h'
     card_total += deal_card
+    
   elsif user_input = 's'
    card_total
    
@@ -62,6 +63,7 @@ end
 
 def invalid_command
   # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
